@@ -67,6 +67,23 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80',
     category: 'electronics'
   },
+  {
+    id: 'e6',
+    name: 'Drone Camera 4K',
+    price: 12999000,
+    description: 'Drone dengan kamera 4K dan stabilisasi gimbal',
+    image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics',
+    featured: true
+  },
+  {
+    id: 'e7',
+    name: 'Gaming Monitor 27"',
+    price: 5499000,
+    description: 'Monitor gaming 165Hz dengan HDR',
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics'
+  },
   //Beauty
   {
     id: 'b1',
@@ -101,6 +118,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=80',
     category: 'beauty'
   },
+  //Buku
   {
     id: 'bk1',
     name: 'Set Novel Bestseller',
@@ -133,5 +151,65 @@ export const products = [
     description: 'Koleksi buku cerita anak edukatif',
     image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80',
     category: 'books'
+  },
+  //Sports
+  {
+    id: 's1',
+    name: 'Sepatu Lari Pro',
+    price: 1899000,
+    description: 'Sepatu lari dengan teknologi cushioning terbaru',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
+    category: 'sports',
+    featured: true
+  },
+  {
+    id: 's2',
+    name: 'Set Dumbbell Premium',
+    price: 2999000,
+    description: 'Set dumbbell adjustable 2-20kg',
+    image: 'https://images.unsplash.com/photo-1586401100295-7a8096fd231a?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: 's3',
+    name: 'Bola Basket Official',
+    price: 599000,
+    description: 'Bola basket ukuran official dengan grip premium',
+    image: 'https://images.unsplash.com/photo-1519861155730-0b5fbf0dd889?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: 's4',
+    name: 'Raket Tenis Premium',
+    price: 2499000,
+    description: 'Raket tenis profesional dengan teknologi terbaru',
+    image: 'https://images.unsplash.com/photo-1617083934555-ac7d4fee8909?auto=format&fit=crop&w=800&q=80',
+    category: 'sports',
+    featured: true
+  },
+  {
+    id: 's5',
+    name: 'Yoga Mat Pro',
+    price: 499000,
+    description: 'Matras yoga anti slip dengan ketebalan premium',
+    image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+    {
+    id: 's6',
+    name: 'Smart Fitness Watch',
+    price: 2499000,
+    description: 'Jam tangan fitness dengan GPS dan monitor detak jantung',
+    image: 'https://images.unsplash.com/photo-1557166983-5939644443a0?auto=format&fit=crop&w=800&q=80',
+    category: 'sports',
+    featured: true
+  },
+  {
+    id: 's7',
+    name: 'Electric Treadmill',
+    price: 12999000,
+    description: 'Treadmill listrik dengan layar LCD',
+    image: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
   }
 ];
