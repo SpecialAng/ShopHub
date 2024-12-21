@@ -72,8 +72,7 @@ export const products = [
     price: 12999000,
     description: 'Drone dengan kamera 4K dan stabilisasi gimbal',
     image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=800&q=80',
-    category: 'electronics',
-    featured: true
+    category: 'electronics'
   },
   {
     id: 'e7',
@@ -281,8 +280,7 @@ export const products = [
     price: 1299000,
     description: 'Polo Katun 100% dengan desain elegan',
     image: 'https://images.unsplash.com/photo-1717127354833-e4d10625d3e7?auto=format&fit=crop&w=800&q=80',
-    category: 'fashion',
-    featured: true
+    category: 'fashion'
   },
   {
     id: 'f2',
