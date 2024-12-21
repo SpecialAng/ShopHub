@@ -84,6 +84,7 @@ export const products = [
     image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80',
     category: 'electronics'
   },
+  
   //Beauty
   {
     id: 'b1',
@@ -116,6 +117,23 @@ export const products = [
     price: 199000,
     description: 'Set masker wajah dengan berbagai manfaat',
     image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=80',
+    category: 'beauty'
+  },
+  {
+    id: 'b7',
+    name: 'Skincare Gift Set',
+    price: 1299000,
+    description: 'Paket lengkap perawatan kulit premium',
+    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80',
+    category: 'beauty',
+    featured: true
+  },
+  {
+    id: 'b8',
+    name: 'Hair Care Set',
+    price: 799000,
+    description: 'Set perawatan rambut profesional',
+    image: 'https://images.unsplash.com/photo-1626015365107-232281646395?auto=format&fit=crop&w=800&q=80',
     category: 'beauty'
   },
   //Buku
@@ -210,6 +228,178 @@ export const products = [
     price: 12999000,
     description: 'Treadmill listrik dengan layar LCD',
     image: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+
+    // Fashion
+  {
+    id: '5',
+    name: 'Tas Ransel Kulit',
+    price: 899000,
+    description: 'Tas ransel kulit premium dengan desain elegan',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: '6',
+    name: 'Jaket Denim Premium',
+    price: 799000,
+    description: 'Jaket denim klasik dengan potongan modern',
+    image: 'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: '8',
+    name: 'Kacamata Fashion UV',
+    price: 599000,
+    description: 'Kacamata fashion dengan perlindungan UV premium',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+    {
+    id: 'f1',
+    name: 'Polo Shirt Premium',
+    price: 1299000,
+    description: 'Polo Katun 100% dengan desain elegan',
+    image: 'https://images.unsplash.com/photo-1717127354833-e4d10625d3e7?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion',
+    featured: true
+  },
+  {
+    id: 'f2',
+    name: 'Sepatu Sneakers',
+    price: 899000,
+    description: 'Sepatu sneakers dengan desain modern',
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: 'f3',
+    name: 'Parfume Pria Premium',
+    price: 599000,
+    description: 'Parfume Pria dengan aroma yang elegan',
+    image: 'https://images.unsplash.com/photo-1717376280564-0fd179a9695a?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: 'f4',
+    name: 'Kacamata Fashion',
+    price: 499000,
+    description: 'Kacamata fashion dengan UV protection',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion',
+    featured: true
+  },
+  {
+    id: 'f5',
+    name: 'Jam Tangan Klasik',
+    price: 2499000,
+    description: 'Jam tangan dengan desain klasik',
+    image: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: 'f6',
+    name: 'Tas Selempang Premium',
+    price: 899000,
+    description: 'Tas selempang kulit asli dengan desain minimalis',
+    image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion',
+    featured: true
+  },
+  {
+    id: 'f7',
+    name: 'Cardigan Rajut',
+    price: 399000,
+    description: 'Cardigan rajut premium dengan bahan wool',
+    image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+
+  // Home & Living
+  {
+    id: '9',
+    name: 'Sofa Modern 3 Dudukan',
+    price: 8999000,
+    description: 'Sofa modern untuk ruang tamu Anda',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
+    category: 'home',
+    featured: true
+  },
+  {
+    id: '10',
+    name: 'Lampu Meja LED',
+    price: 399000,
+    description: 'Lampu meja LED dengan kecerahan yang dapat diatur',
+    image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80',
+    category: 'home'
+  },
+  {
+    id: '11',
+    name: 'Set Bantal Sofa',
+    price: 299000,
+    description: 'Set bantal sofa dekoratif (2 pieces)',
+    image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e6?auto=format&fit=crop&w=800&q=80',
+    category: 'home'
+  },
+  {
+    id: '12',
+    name: 'Lukisan Dinding Modern',
+    price: 799000,
+    description: 'Lukisan dinding abstrak modern',
+    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=800&q=80',
+    category: 'home'
+  },
+  {
+    id: 'h6',
+    name: 'Coffee Maker Premium',
+    price: 2999000,
+    description: 'Mesin kopi otomatis dengan grinder',
+    image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
+    category: 'home',
+    featured: true
+  },
+  {
+    id: 'h7',
+    name: 'Air Purifier Smart',
+    price: 3499000,
+    description: 'Pembersih udara dengan sensor otomatis',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
+    category: 'home'
+  },
+
+  // Sports
+  {
+    id: '13',
+    name: 'Sepatu Lari Pro',
+    price: 1599000,
+    description: 'Sepatu lari dengan teknologi cushioning terbaru',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
+    category: 'sports',
+    featured: true
+  },
+  {
+    id: '14',
+    name: 'Matras Yoga Premium',
+    price: 299000,
+    description: 'Matras yoga anti slip berkualitas tinggi',
+    image: 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: '15',
+    name: 'Set Resistance Band',
+    price: 249000,
+    description: 'Set 5 resistance band untuk latihan di rumah',
+    image: 'https://images.unsplash.com/photo-1598632640487-6ea4a5e8d6c0?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: '16',
+    name: 'Botol Minum Olahraga',
+    price: 199000,
+    description: 'Botol minum stainless steel dengan insulasi',
+    image: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80',
     category: 'sports'
   }
 ];
