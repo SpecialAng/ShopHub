@@ -14,8 +14,7 @@ export const products = [
     price: 1899000,
     description: 'Earbuds nirkabel dengan kualitas suara premium',
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80',
-    category: 'electronics',
-    featured: true
+    category: 'electronics'
   },
   {
     id: '4',
@@ -82,7 +81,8 @@ export const products = [
     price: 5499000,
     description: 'Monitor gaming 165Hz dengan HDR',
     image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80',
-    category: 'electronics'
+    category: 'electronics',
+    featured: true
   },
   
   //Beauty
@@ -125,8 +125,7 @@ export const products = [
     price: 1299000,
     description: 'Paket lengkap perawatan kulit premium',
     image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80',
-    category: 'beauty',
-    featured: true
+    category: 'beauty'
   },
   {
     id: 'b8',
@@ -143,8 +142,7 @@ export const products = [
     price: 499000,
     description: 'Koleksi novel bestseller pilihan',
     image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80',
-    category: 'books',
-    featured: true
+    category: 'books'
   },
   {
     id: 'bk2',
@@ -202,8 +200,7 @@ export const products = [
     price: 2499000,
     description: 'Raket tenis profesional dengan teknologi terbaru',
     image: 'https://images.unsplash.com/photo-1617083934555-ac7d4fee8909?auto=format&fit=crop&w=800&q=80',
-    category: 'sports',
-    featured: true
+    category: 'sports'
   },
   {
     id: 's5',
@@ -219,8 +216,7 @@ export const products = [
     price: 2499000,
     description: 'Jam tangan fitness dengan GPS dan monitor detak jantung',
     image: 'https://images.unsplash.com/photo-1557166983-5939644443a0?auto=format&fit=crop&w=800&q=80',
-    category: 'sports',
-    featured: true
+    category: 'sports'
   },
   {
     id: 's7',
@@ -304,8 +300,7 @@ export const products = [
     price: 899000,
     description: 'Tas selempang kulit asli dengan desain minimalis',
     image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80',
-    category: 'fashion',
-    featured: true
+    category: 'fashion'
   },
   {
     id: 'f7',
@@ -323,8 +318,7 @@ export const products = [
     price: 8999000,
     description: 'Sofa modern untuk ruang tamu Anda',
     image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
-    category: 'home',
-    featured: true
+    category: 'home'
   },
   {
     id: '10',
