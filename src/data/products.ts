@@ -175,8 +175,31 @@ export const products = [
     price: 1899000,
     description: 'Sepatu lari dengan teknologi cushioning terbaru',
     image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
-    category: 'sports',
-    featured: true
+    category: 'sports'
+  },
+  {
+    id: '14',
+    name: 'Matras Yoga Premium',
+    price: 299000,
+    description: 'Matras yoga anti slip berkualitas tinggi',
+    image: 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: '15',
+    name: 'Set Resistance Band',
+    price: 249000,
+    description: 'Set 5 resistance band untuk latihan di rumah',
+    image: 'https://images.unsplash.com/photo-1598632640487-6ea4a5e8d6c0?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
+  },
+  {
+    id: '16',
+    name: 'Botol Minum Olahraga',
+    price: 199000,
+    description: 'Botol minum stainless steel dengan insulasi',
+    image: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80',
+    category: 'sports'
   },
   {
     id: 's2',
@@ -283,8 +306,7 @@ export const products = [
     price: 499000,
     description: 'Kacamata fashion dengan UV protection',
     image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80',
-    category: 'fashion',
-    featured: true
+    category: 'fashion'
   },
   {
     id: 'f5',
@@ -350,8 +372,7 @@ export const products = [
     price: 2999000,
     description: 'Mesin kopi otomatis dengan grinder',
     image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80',
-    category: 'home',
-    featured: true
+    category: 'home'
   },
   {
     id: 'h7',
@@ -360,40 +381,5 @@ export const products = [
     description: 'Pembersih udara dengan sensor otomatis',
     image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
     category: 'home'
-  },
-
-  // Sports
-  {
-    id: '13',
-    name: 'Sepatu Lari Pro',
-    price: 1599000,
-    description: 'Sepatu lari dengan teknologi cushioning terbaru',
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
-    category: 'sports',
-    featured: true
-  },
-  {
-    id: '14',
-    name: 'Matras Yoga Premium',
-    price: 299000,
-    description: 'Matras yoga anti slip berkualitas tinggi',
-    image: 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=80',
-    category: 'sports'
-  },
-  {
-    id: '15',
-    name: 'Set Resistance Band',
-    price: 249000,
-    description: 'Set 5 resistance band untuk latihan di rumah',
-    image: 'https://images.unsplash.com/photo-1598632640487-6ea4a5e8d6c0?auto=format&fit=crop&w=800&q=80',
-    category: 'sports'
-  },
-  {
-    id: '16',
-    name: 'Botol Minum Olahraga',
-    price: 199000,
-    description: 'Botol minum stainless steel dengan insulasi',
-    image: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=800&q=80',
-    category: 'sports'
   }
 ];
