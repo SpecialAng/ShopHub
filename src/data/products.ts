@@ -1,15 +1,6 @@
 export const products = [
   // Electronics
   {
-    id: '1',
-    name: 'Headphone Nirkabel Premium',
-    price: 2499000,
-    description: 'Headphone dengan noise cancellation dan kualitas suara premium',
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
-    category: 'electronics',
-    featured: true
-  },
-  {
     id: '2',
     name: 'Smartwatch Canggih',
     price: 3299000,
@@ -32,6 +23,48 @@ export const products = [
     price: 449000,
     description: 'Dudukan laptop aluminium dengan desain ergonomis',
     image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics'
+  },
+    {
+    id: 'e1',
+    name: 'Headphone Nirkabel Premium',
+    price: 2999000,
+    description: 'Headphone dengan noise cancellation dan bass yang powerful',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics',
+    featured: true
+  },
+  {
+    id: 'e2',
+    name: 'Smartwatch Pro',
+    price: 4499000,
+    description: 'Jam pintar dengan monitor kesehatan lengkap',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics'
+  },
+  {
+    id: 'e3',
+    name: 'Speaker Bluetooth Mini',
+    price: 899000,
+    description: 'Speaker portabel dengan suara jernih',
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics'
+  },
+  {
+    id: 'e4',
+    name: 'Laptop Gaming Pro',
+    price: 15999000,
+    description: 'Laptop gaming dengan performa tinggi',
+    image: 'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80',
+    category: 'electronics',
+    featured: true
+  },
+  {
+    id: 'e5',
+    name: 'Tablet Android Premium',
+    price: 8999000,
+    description: 'Tablet Android dengan layar 2K',
+    image: 'https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80',
     category: 'electronics'
   },
 
@@ -67,6 +100,48 @@ export const products = [
     price: 599000,
     description: 'Kacamata fashion dengan perlindungan UV premium',
     image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+    {
+    id: 'f1',
+    name: 'Polo Shirt Premium',
+    price: 1299000,
+    description: 'Polo Katun 100% dengan desain elegan',
+    image: 'https://images.unsplash.com/photo-1717127354833-e4d10625d3e7?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion',
+    featured: true
+  },
+  {
+    id: 'f2',
+    name: 'Sepatu Sneakers',
+    price: 899000,
+    description: 'Sepatu sneakers dengan desain modern',
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: 'f3',
+    name: 'Parfume Pria Premium',
+    price: 599000,
+    description: 'Parfume Pria dengan aroma yang elegan',
+    image: 'https://images.unsplash.com/photo-1717376280564-0fd179a9695a?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion'
+  },
+  {
+    id: 'f4',
+    name: 'Kacamata Fashion',
+    price: 499000,
+    description: 'Kacamata fashion dengan UV protection',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80',
+    category: 'fashion',
+    featured: true
+  },
+  {
+    id: 'f5',
+    name: 'Jam Tangan Klasik',
+    price: 2499000,
+    description: 'Jam tangan dengan desain klasik',
+    image: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80',
     category: 'fashion'
   },
 
